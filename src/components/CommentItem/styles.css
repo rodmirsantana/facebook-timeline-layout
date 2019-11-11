@@ -1,0 +1,21 @@
+div.comment-list {
+  display: flex;
+  padding: 15px 0;
+}
+
+div.comment-list .author {
+  margin-right: 15px;
+}
+
+div.comment-list .content {
+  display: flex;
+  flex-direction: column;
+  background: rgb(245, 243, 243);
+  border-radius: 4px;
+  padding: 15px;
+}
+
+div.comment-list .content .comment-text {
+  padding: 15px 0;
+  padding-bottom: 0;
+}

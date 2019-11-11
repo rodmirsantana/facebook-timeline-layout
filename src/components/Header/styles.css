@@ -1,0 +1,45 @@
+header {
+  background: #4267b2;
+  height: 46px;
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid #29487d;
+  color: #fff;
+}
+
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 30px;
+}
+
+header .content #header-logo {
+  display: flex;
+}
+
+header .content #header-logo img {
+  width: 120px;
+}
+
+header .content .profileLink {
+  display: flex;
+}
+
+header .content .profileLink a {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+header .content .profileLink a:hover {
+  text-decoration: none;
+  color: rgb(241, 238, 238);
+}
+
+header .content .profileLink img {
+  margin-left: 10px;
+}

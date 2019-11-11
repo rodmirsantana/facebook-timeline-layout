@@ -1,0 +1,25 @@
+li.post-item {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  list-style: none;
+}
+
+li.post-item .info {
+  display: flex;
+  align-items: center;
+}
+
+li.post-item .info img {
+  margin-right: 10px;
+}
+
+li.post-item .info > div p {
+  font-size: 16px;
+}
+
+li.post-item .post-text {
+  padding: 25px 0;
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
